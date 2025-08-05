@@ -34,7 +34,6 @@ return {
     scroll = { enabled = true },
     statuscolumn = {
       enabled = true,
-      right = {},
       folds = {
         open = true,
         git_hl = true,
