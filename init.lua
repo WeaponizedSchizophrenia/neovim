@@ -122,7 +122,7 @@ end)
 vim.o.breakindent = true
 
 -- Set tab size
-vim.o.tabstop = 8
+vim.o.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
 vim.o.expandtab = true
@@ -690,7 +690,7 @@ require('lazy').setup({
             '--experimental-modules-support',
           },
         },
-        -- gopls = {},
+        gopls = {},
         -- pyright = {},
         rust_analyzer = {},
         neocmake = {},
