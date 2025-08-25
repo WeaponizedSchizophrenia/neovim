@@ -34,6 +34,7 @@ return {
     scroll = { enabled = true },
     statuscolumn = {
       enabled = true,
+      left = { 'sign' },
       folds = {
         open = true,
         git_hl = true,
